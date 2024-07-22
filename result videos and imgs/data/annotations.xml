@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>1020873</id>
+      <size>1</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2024-07-11 11:34:01.754818+00:00</created>
+      <updated>2024-07-11 11:35:12.789362+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>0</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>1022850</id>
+          <start>0</start>
+          <stop>0</stop>
+          <url>https://app.cvat.ai/api/jobs/1020873</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>arkadeepto</username>
+        <email>arkadeepto@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>car</name>
+          <color>#2080c0</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>auto</name>
+          <color>#f29128</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>bus</name>
+          <color>#204080</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2024-07-11 11:35:50.627442+00:00</dumped>
+  </meta>
+  <image id="0" name="raw.png" width="821" height="672">
+    <box label="car" source="manual" occluded="0" xtl="307.80" ytl="203.31" xbr="431.76" ybr="315.31" z_order="0">
+    </box>
+    <box label="auto" source="manual" occluded="0" xtl="218.64" ytl="215.27" xbr="299.10" ybr="341.40" z_order="0">
+    </box>
+    <box label="auto" source="manual" occluded="0" xtl="419.80" ytl="377.29" xbr="539.41" ybr="534.96" z_order="0">
+    </box>
+  </image>
+</annotations>
